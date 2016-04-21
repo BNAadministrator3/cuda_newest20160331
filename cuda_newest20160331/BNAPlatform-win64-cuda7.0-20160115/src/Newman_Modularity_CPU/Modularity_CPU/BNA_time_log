@@ -1,0 +1,24 @@
+Modularity	E:\BNAlauncher\test_new\unweighted\N0001_25218_spa1.000%_cor0.504.csrCPU	kernel time	24392.7s
+Modularity	RandomCPU	(Maslov+kernel) time	0s
+Modularity	E:\BNAlauncher\test_new\paper\unweighted\N0001_25218_spa1.000%_cor0.504.csrCPU	kernel time	14683.5s
+Modularity	RandomCPU	(Maslov+kernel) time	0s
+Modularity	E:\BNAlauncher\test_new\paper\unweighted\N0001_25218_spa2.000%_cor0.433.csrCPU	kernel time	16275.2s
+Modularity	RandomCPU	(Maslov+kernel) time	0s
+Modularity	E:\BNAlauncher\test_new\paper\unweighted\N0001_25218_spa3.000%_cor0.389.csrCPU	kernel time	18667.1s
+Modularity	RandomCPU	(Maslov+kernel) time	0s
+Modularity	CPU	total time	3436.5s
+
+Modularity	E:\project\data\FunImgRWDCF\group\grouplevel-unweighted\group_10_58523_spa0.500%_cor0.096.csrCPU	kernel time	375998s
+Modularity	RandomCPU	(Maslov+kernel) time	0s
+Modularity	E:\project\data\FunImgRWDCF\group\grouplevel-unweighted\group_10_58523_spa1.000%_cor0.082.csrCPU	kernel time	390859s
+Modularity	RandomCPU	(Maslov+kernel) time	0s
+Modularity	E:\project\data\FunImgRWDCF\group\grouplevel-unweighted\group_10_58523_spa1.500%_cor0.075.csrCPU	kernel time	407172s
+Modularity	RandomCPU	(Maslov+kernel) time	0s
+Modularity	E:\project\data\FunImgRWDCF\group\grouplevel-unweighted\group_10_58523_spa2.000%_cor0.070.csrCPU	kernel time	423372s
+Modularity	RandomCPU	(Maslov+kernel) time	0s
+Modularity	E:\project\data\FunImgRWDCF\group\grouplevel-unweighted\group_10_58523_spa2.500%_cor0.066.csrCPU	kernel time	442810s
+Modularity	RandomCPU	(Maslov+kernel) time	0s
+Modularity	E:\project\data\FunImgRWDCF\group\grouplevel-unweighted\group_10_58523_spa3.000%_cor0.063.csrCPU	kernel time	463856s
+Modularity	RandomCPU	(Maslov+kernel) time	0s
+Modularity	CPU	total time	75631.4s
+

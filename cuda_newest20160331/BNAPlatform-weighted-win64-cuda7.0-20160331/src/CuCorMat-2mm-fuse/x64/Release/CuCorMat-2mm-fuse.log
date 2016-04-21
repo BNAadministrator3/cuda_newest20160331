@@ -1,0 +1,38 @@
+﻿生成启动时间为 2016/4/11 17:10:42。
+     1>项目“E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-weighted-win64-cuda7.0-20160331\src\CuCorMat-2mm-fuse\CuCorMat-2mm-fuse.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\softwareforwork\VS2012\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" /I..\common /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D WIN64 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt "CorMat-2mm-fuse.cpp"
+         CorMat-2mm-fuse.cpp
+     1>CorMat-2mm-fuse.cpp(39): warning C4305: “-=”: 从“double”到“real__t”截断
+     1>CorMat-2mm-fuse.cpp(40): warning C4244: “=”: 从“double”转换到“real__t”，可能丢失数据
+     1>CorMat-2mm-fuse.cpp(150): warning C4244: “=”: 从“short”转换到“char”，可能丢失数据
+     1>CorMat-2mm-fuse.cpp(211): warning C4244: “=”: 从“double”转换到“real__t”，可能丢失数据
+     1>CorMat-2mm-fuse.cpp(260): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 E:\softwareforwork\VS2012\VC\include\stdlib.h(909) : 参见“itoa”的声明
+     1>CorMat-2mm-fuse.cpp(62): warning C4101: “time”: 未引用的局部变量
+     1>CorMat-2mm-fuse.cpp(252): warning C4101: “sparsity”: 未引用的局部变量
+     1>CorMat-2mm-fuse.cpp(374): warning C4101: “j_for_del”: 未引用的局部变量
+     1>CorMat-2mm-fuse.cpp(373): warning C4101: “i_for_del”: 未引用的局部变量
+     1>CorMat-2mm-fuse.cpp(497): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>CorMat-2mm-fuse.cpp(543): warning C4244: “=”: 从“double”转换到“real__t”，可能丢失数据
+     1>CorMat-2mm-fuse.cpp(558): warning C4244: “=”: 从“double”转换到“real__t”，可能丢失数据
+       Link:
+         E:\softwareforwork\VS2012\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-weighted-win64-cuda7.0-20160331\src\x64\Release\CuCorMat-2mm-fuse.exe" /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\lib\x64" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-weighted-win64-cuda7.0-20160331\src\x64\Release\CuCorMat-2mm-fuse.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-weighted-win64-cuda7.0-20160331\src\x64\Release\CuCorMat-2mm-fuse.lib" /MACHINE:X64 "x64\Release\CorMat-2mm-fuse.cu.obj"
+         "x64\Release\CorMat-2mm-fuse.obj"
+         "x64\Release\parallel-programming.obj"
+         正在生成代码
+         已完成代码的生成
+         CuCorMat-2mm-fuse.vcxproj -> E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-weighted-win64-cuda7.0-20160331\src\x64\Release\CuCorMat-2mm-fuse.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-weighted-win64-cuda7.0-20160331\src\x64\Release\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-weighted-win64-cuda7.0-20160331\src\x64\Release\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-weighted-win64-cuda7.0-20160331\src\x64\Release\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart32_70.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart64_70.dll
+         已复制         2 个文件。
+     1>已完成生成项目“E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-weighted-win64-cuda7.0-20160331\src\CuCorMat-2mm-fuse\CuCorMat-2mm-fuse.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.35

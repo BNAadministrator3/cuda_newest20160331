@@ -1,0 +1,155 @@
+﻿生成启动时间为 2016/3/3 13:57:12。
+     1>项目“E:\cudaintergrated\cuda_test_project\cuda_newest20160115-4mm-sole-correlation\BNAPlatform-weighted-network-win64-cuda7.0-20160115\src\CuCorMat-2mm\CuCorMat-2mm.vcxproj”在节点 2 上(Build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“x64\Release\CuCorMat-2mm.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       AddCudaCompileDeps:
+         E:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /DWIN64 /DNDEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" /I..\common /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" /I. /FIcuda_runtime.h /c E:\cudaintergrated\cuda_test_project\cuda_newest20160115-4mm-sole-correlation\BNAPlatform-weighted-network-win64-cuda7.0-20160115\src\CuCorMat-2mm\CorMat-2mm.cu 
+       AddCudaCompilePropsDeps:
+       正在跳过目标“AddCudaCompilePropsDeps”，因为所有输出文件相对于输入文件而言都是最新的。
+       CudaBuild:
+         Compiling CUDA source file CorMat-2mm.cu...
+         cmd.exe /C "C:\Users\Lerond\AppData\Local\Temp\tmp96dfe6d1eb4d4ed38752798986de12c1.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2012 -ccbin "E:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I..\common -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi  /MD  " -o x64\Release\CorMat-2mm.cu.obj "E:\cudaintergrated\cuda_test_project\cuda_newest20160115-4mm-sole-correlation\BNAPlatform-weighted-network-win64-cuda7.0-20160115\src\CuCorMat-2mm\CorMat-2mm.cu"
+         
+         E:\cudaintergrated\cuda_test_project\cuda_newest20160115-4mm-sole-correlation\BNAPlatform-weighted-network-win64-cuda7.0-20160115\src\CuCorMat-2mm>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2012 -ccbin "E:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I..\common -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi  /MD  " -o x64\Release\CorMat-2mm.cu.obj "E:\cudaintergrated\cuda_test_project\cuda_newest20160115-4mm-sole-correlation\BNAPlatform-weighted-network-win64-cuda7.0-20160115\src\CuCorMat-2mm\CorMat-2mm.cu" 
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(877): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(1850): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(2728): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(3651): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(4595): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(5521): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(6421): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(7314): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(8227): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\device_functions.h(775): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\device_functions.h(1632): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:/cudaintergrated/cuda_test_project/cuda_newest20160115-4mm-sole-correlation/BNAPlatform-weighted-network-win64-cuda7.0-20160115/src/CuCorMat-2mm/CorMat-2mm.cu(121): warning : variable "kk" was declared but never referenced
+         
+     1>E:/cudaintergrated/cuda_test_project/cuda_newest20160115-4mm-sole-correlation/BNAPlatform-weighted-network-win64-cuda7.0-20160115/src/CuCorMat-2mm/CorMat-2mm.cu(38): warning : variable "tempout" was set but never used
+         
+     1>E:/cudaintergrated/cuda_test_project/cuda_newest20160115-4mm-sole-correlation/BNAPlatform-weighted-network-win64-cuda7.0-20160115/src/CuCorMat-2mm/CorMat-2mm.cu(109): warning : variable "alpha" was declared but never referenced
+         
+     1>E:/cudaintergrated/cuda_test_project/cuda_newest20160115-4mm-sole-correlation/BNAPlatform-weighted-network-win64-cuda7.0-20160115/src/CuCorMat-2mm/CorMat-2mm.cu(110): warning : variable "beta" was declared but never referenced
+         
+     1>E:/cudaintergrated/cuda_test_project/cuda_newest20160115-4mm-sole-correlation/BNAPlatform-weighted-network-win64-cuda7.0-20160115/src/CuCorMat-2mm/CorMat-2mm.cu(330): warning : variable "FreeMem" was set but never used
+         
+     1>E:/cudaintergrated/cuda_test_project/cuda_newest20160115-4mm-sole-correlation/BNAPlatform-weighted-network-win64-cuda7.0-20160115/src/CuCorMat-2mm/CorMat-2mm.cu(450): warning : variable "index" was declared but never referenced
+         
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(877): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(1850): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(2728): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(3651): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(4595): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(5521): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(6421): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(7314): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(8227): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(877): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(1850): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(2728): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(3651): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(4595): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(5521): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(6421): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(7314): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(8227): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\device_functions_decls.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\device_functions_decls.h(917): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\device_functions_decls.h(1921): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\device_functions_decls.h(2857): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\device_functions_decls.h(3802): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\device_functions_decls.h(4747): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\device_functions_decls.h(5772): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\device_functions_decls.h(6719): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\device_functions_decls.h(7652): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\device_functions_decls.h(8526): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\device_functions_decls.h(9492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\device_functions_decls.h(10478): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\device_functions.h(775): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\device_functions.h(1632): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(877): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(1850): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(2728): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(3651): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(4595): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(5521): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(6421): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(7314): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(8227): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\device_functions.h(775): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\device_functions.h(1632): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:/cudaintergrated/cuda_test_project/cuda_newest20160115-4mm-sole-correlation/BNAPlatform-weighted-network-win64-cuda7.0-20160115/src/CuCorMat-2mm/CorMat-2mm.cu(121): warning : variable "kk" was declared but never referenced
+         
+     1>E:/cudaintergrated/cuda_test_project/cuda_newest20160115-4mm-sole-correlation/BNAPlatform-weighted-network-win64-cuda7.0-20160115/src/CuCorMat-2mm/CorMat-2mm.cu(38): warning : variable "tempout" was set but never used
+         
+     1>E:/cudaintergrated/cuda_test_project/cuda_newest20160115-4mm-sole-correlation/BNAPlatform-weighted-network-win64-cuda7.0-20160115/src/CuCorMat-2mm/CorMat-2mm.cu(109): warning : variable "alpha" was declared but never referenced
+         
+     1>E:/cudaintergrated/cuda_test_project/cuda_newest20160115-4mm-sole-correlation/BNAPlatform-weighted-network-win64-cuda7.0-20160115/src/CuCorMat-2mm/CorMat-2mm.cu(110): warning : variable "beta" was declared but never referenced
+         
+     1>E:/cudaintergrated/cuda_test_project/cuda_newest20160115-4mm-sole-correlation/BNAPlatform-weighted-network-win64-cuda7.0-20160115/src/CuCorMat-2mm/CorMat-2mm.cu(330): warning : variable "FreeMem" was set but never used
+         
+     1>E:/cudaintergrated/cuda_test_project/cuda_newest20160115-4mm-sole-correlation/BNAPlatform-weighted-network-win64-cuda7.0-20160115/src/CuCorMat-2mm/CorMat-2mm.cu(450): warning : variable "index" was declared but never referenced
+         
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(877): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(1850): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(2728): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(3651): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(4595): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(5521): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(6421): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(7314): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v7.0\include\math_functions.h(8227): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         CorMat-2mm.cu
+     1>E:/cudaintergrated/cuda_test_project/cuda_newest20160115-4mm-sole-correlation/BNAPlatform-weighted-network-win64-cuda7.0-20160115/src/CuCorMat-2mm/CorMat-2mm.cu(52): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:/cudaintergrated/cuda_test_project/cuda_newest20160115-4mm-sole-correlation/BNAPlatform-weighted-network-win64-cuda7.0-20160115/src/CuCorMat-2mm/CorMat-2mm.cu(74): warning C4244: “=”: 从“double”转换到“real__t”，可能丢失数据
+     1>E:/cudaintergrated/cuda_test_project/cuda_newest20160115-4mm-sole-correlation/BNAPlatform-weighted-network-win64-cuda7.0-20160115/src/CuCorMat-2mm/CorMat-2mm.cu(334): warning C4244: “=”: 从“SIZE_T”转换到“unsigned int”，可能丢失数据
+     1>E:/cudaintergrated/cuda_test_project/cuda_newest20160115-4mm-sole-correlation/BNAPlatform-weighted-network-win64-cuda7.0-20160115/src/CuCorMat-2mm/CorMat-2mm.cu(350): warning C4244: “初始化”: 从“double”转换到“real__t”，可能丢失数据
+     1>E:/cudaintergrated/cuda_test_project/cuda_newest20160115-4mm-sole-correlation/BNAPlatform-weighted-network-win64-cuda7.0-20160115/src/CuCorMat-2mm/CorMat-2mm.cu(458): warning C4244: “return”: 从“cudaError_t”转换到“real__t”，可能丢失数据
+     1>E:/cudaintergrated/cuda_test_project/cuda_newest20160115-4mm-sole-correlation/BNAPlatform-weighted-network-win64-cuda7.0-20160115/src/CuCorMat-2mm/CorMat-2mm.cu(460): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:/cudaintergrated/cuda_test_project/cuda_newest20160115-4mm-sole-correlation/BNAPlatform-weighted-network-win64-cuda7.0-20160115/src/CuCorMat-2mm/CorMat-2mm.cu(474): warning C4244: “return”: 从“cublasStatus_t”转换到“real__t”，可能丢失数据
+     1>E:/cudaintergrated/cuda_test_project/cuda_newest20160115-4mm-sole-correlation/BNAPlatform-weighted-network-win64-cuda7.0-20160115/src/CuCorMat-2mm/CorMat-2mm.cu(479): warning C4244: “=”: 从“double”转换到“real__t”，可能丢失数据
+     1>E:/cudaintergrated/cuda_test_project/cuda_newest20160115-4mm-sole-correlation/BNAPlatform-weighted-network-win64-cuda7.0-20160115/src/CuCorMat-2mm/CorMat-2mm.cu(482): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:/cudaintergrated/cuda_test_project/cuda_newest20160115-4mm-sole-correlation/BNAPlatform-weighted-network-win64-cuda7.0-20160115/src/CuCorMat-2mm/CorMat-2mm.cu(487): warning C4244: “return”: 从“cublasStatus_t”转换到“real__t”，可能丢失数据
+     1>E:/cudaintergrated/cuda_test_project/cuda_newest20160115-4mm-sole-correlation/BNAPlatform-weighted-network-win64-cuda7.0-20160115/src/CuCorMat-2mm/CorMat-2mm.cu(490): warning C4244: “return”: 从“cublasStatus_t”转换到“real__t”，可能丢失数据
+     1>E:/cudaintergrated/cuda_test_project/cuda_newest20160115-4mm-sole-correlation/BNAPlatform-weighted-network-win64-cuda7.0-20160115/src/CuCorMat-2mm/CorMat-2mm.cu(450): warning C4101: “index”: 未引用的局部变量
+     1>E:/cudaintergrated/cuda_test_project/cuda_newest20160115-4mm-sole-correlation/BNAPlatform-weighted-network-win64-cuda7.0-20160115/src/CuCorMat-2mm/CorMat-2mm.cu(535): warning C4244: “=”: 从“double”转换到“real__t”，可能丢失数据
+     1>E:/cudaintergrated/cuda_test_project/cuda_newest20160115-4mm-sole-correlation/BNAPlatform-weighted-network-win64-cuda7.0-20160115/src/CuCorMat-2mm/CorMat-2mm.cu(564): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:/cudaintergrated/cuda_test_project/cuda_newest20160115-4mm-sole-correlation/BNAPlatform-weighted-network-win64-cuda7.0-20160115/src/CuCorMat-2mm/CorMat-2mm.cu(572): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:/cudaintergrated/cuda_test_project/cuda_newest20160115-4mm-sole-correlation/BNAPlatform-weighted-network-win64-cuda7.0-20160115/src/CuCorMat-2mm/CorMat-2mm.cu(573): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:/cudaintergrated/cuda_test_project/cuda_newest20160115-4mm-sole-correlation/BNAPlatform-weighted-network-win64-cuda7.0-20160115/src/CuCorMat-2mm/CorMat-2mm.cu(579): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+     1>E:/cudaintergrated/cuda_test_project/cuda_newest20160115-4mm-sole-correlation/BNAPlatform-weighted-network-win64-cuda7.0-20160115/src/CuCorMat-2mm/CorMat-2mm.cu(580): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+       ClCompile:
+         所有输出均为最新。
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\cudaintergrated\cuda_test_project\cuda_newest20160115-4mm-sole-correlation\BNAPlatform-weighted-network-win64-cuda7.0-20160115\src\x64\Release\CuCorMat-2mm.exe" /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\lib\x64" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\cudaintergrated\cuda_test_project\cuda_newest20160115-4mm-sole-correlation\BNAPlatform-weighted-network-win64-cuda7.0-20160115\src\x64\Release\CuCorMat-2mm.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\cudaintergrated\cuda_test_project\cuda_newest20160115-4mm-sole-correlation\BNAPlatform-weighted-network-win64-cuda7.0-20160115\src\x64\Release\CuCorMat-2mm.lib" /MACHINE:X64 "x64\Release\CorMat-2mm.cu.obj"
+         "x64\Release\CorMat-2mm.obj"
+         正在生成代码
+         已完成代码的生成
+         CuCorMat-2mm.vcxproj -> E:\cudaintergrated\cuda_test_project\cuda_newest20160115-4mm-sole-correlation\BNAPlatform-weighted-network-win64-cuda7.0-20160115\src\x64\Release\CuCorMat-2mm.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "E:\cudaintergrated\cuda_test_project\cuda_newest20160115-4mm-sole-correlation\BNAPlatform-weighted-network-win64-cuda7.0-20160115\src\x64\Release\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "E:\cudaintergrated\cuda_test_project\cuda_newest20160115-4mm-sole-correlation\BNAPlatform-weighted-network-win64-cuda7.0-20160115\src\x64\Release\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "E:\cudaintergrated\cuda_test_project\cuda_newest20160115-4mm-sole-correlation\BNAPlatform-weighted-network-win64-cuda7.0-20160115\src\x64\Release\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart32_70.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart64_70.dll
+         已复制         2 个文件。
+       FinalizeBuildStatus:
+         正在删除文件“x64\Release\CuCorMat-2mm.unsuccessfulbuild”。
+         正在对“x64\Release\CuCorMat-2mm.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\cudaintergrated\cuda_test_project\cuda_newest20160115-4mm-sole-correlation\BNAPlatform-weighted-network-win64-cuda7.0-20160115\src\CuCorMat-2mm\CuCorMat-2mm.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:14.71

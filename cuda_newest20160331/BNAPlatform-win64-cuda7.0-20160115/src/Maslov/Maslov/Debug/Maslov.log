@@ -1,0 +1,21 @@
+﻿生成启动时间为 2016/4/6 14:05:11。
+     1>项目“E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-win64-cuda7.0-20160115\src\Maslov\Maslov\Maslov.vcxproj”在节点 7 上(Rebuild 个目标)。
+     1>ClCompile:
+         E:\softwareforwork\VS2012\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Maslov.cpp Maslov_main.cpp
+         Maslov_main.cpp
+     1>e:\project\program\cuda_newest20160331\cuda_newest20160331\bnaplatform-win64-cuda7.0-20160115\src\maslov\maslov\maslov_main.cpp(28): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\softwareforwork\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+     1>e:\project\program\cuda_newest20160331\cuda_newest20160331\bnaplatform-win64-cuda7.0-20160115\src\maslov\maslov\maslov_main.cpp(29): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\softwareforwork\vs2012\vc\include\string.h(110) : 参见“strcpy”的声明
+         Maslov.cpp
+     1>e:\project\program\cuda_newest20160331\cuda_newest20160331\bnaplatform-win64-cuda7.0-20160115\src\maslov\maslov\maslov.cpp(20): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+         正在生成代码...
+       Link:
+         E:\softwareforwork\VS2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-win64-cuda7.0-20160115\src\Debug\Maslov.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-win64-cuda7.0-20160115\src\Debug\Maslov.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-win64-cuda7.0-20160115\src\Debug\Maslov.lib" /MACHINE:X86 Debug\Maslov.obj
+         Debug\Maslov_main.obj
+         Maslov.vcxproj -> E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-win64-cuda7.0-20160115\src\Debug\Maslov.exe
+     1>已完成生成项目“E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-win64-cuda7.0-20160115\src\Maslov\Maslov\Maslov.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.93

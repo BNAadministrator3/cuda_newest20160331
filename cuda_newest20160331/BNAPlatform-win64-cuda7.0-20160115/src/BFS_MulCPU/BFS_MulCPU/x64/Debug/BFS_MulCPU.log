@@ -1,0 +1,21 @@
+﻿生成启动时间为 2016/4/6 16:57:29。
+     1>项目“E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-win64-cuda7.0-20160115\src\BFS_MulCPU\BFS_MulCPU\BFS_MulCPU.vcxproj”在节点 5 上(Rebuild 个目标)。
+     1>ClCompile:
+         E:\softwareforwork\VS2012\VC\bin\x86_amd64\CL.exe /c /I..\..\common /Zi /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt ..\..\common\Timer.cpp APSP_BFS.cpp Maslov.cpp MUBFS_LP_main.cpp
+         MUBFS_LP_main.cpp
+         Maslov.cpp
+     1>Maslov.cpp(20): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+         APSP_BFS.cpp
+         Timer.cpp
+         正在生成代码...
+       Link:
+         E:\softwareforwork\VS2012\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-win64-cuda7.0-20160115\src\x64\Debug\BFS_MulCPU.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-win64-cuda7.0-20160115\src\x64\Debug\BFS_MulCPU.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-win64-cuda7.0-20160115\src\x64\Debug\BFS_MulCPU.lib" /MACHINE:X64 x64\Debug\Timer.obj
+         x64\Debug\APSP_BFS.obj
+         x64\Debug\Maslov.obj
+         x64\Debug\MUBFS_LP_main.obj
+         BFS_MulCPU.vcxproj -> E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-win64-cuda7.0-20160115\src\x64\Debug\BFS_MulCPU.exe
+     1>已完成生成项目“E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-win64-cuda7.0-20160115\src\BFS_MulCPU\BFS_MulCPU\BFS_MulCPU.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:01:23.43

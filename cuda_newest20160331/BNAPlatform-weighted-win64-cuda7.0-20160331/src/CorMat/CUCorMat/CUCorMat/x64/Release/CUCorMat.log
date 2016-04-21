@@ -1,0 +1,43 @@
+﻿生成启动时间为 2016/4/18 14:43:38。
+     1>项目“E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-weighted-win64-cuda7.0-20160331\src\CorMat\CUCorMat\CUCorMat\CUCorMat.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.CppBuild.targets(346,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         E:\softwareforwork\VS2012\VC\bin\x86_amd64\CL.exe /c /I..\..\..\common /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" /Zi /nologo /W3 /WX- /Od /Oi /GL /D WIN32 /D WIN64 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt CorMat.cpp
+         CorMat.cpp
+     1>CorMat.cpp(39): warning C4305: “-=”: 从“double”到“real__t”截断
+     1>CorMat.cpp(40): warning C4244: “=”: 从“double”转换到“real__t”，可能丢失数据
+     1>CorMat.cpp(151): warning C4244: “=”: 从“short”转换到“char”，可能丢失数据
+     1>CorMat.cpp(219): warning C4244: “=”: 从“double”转换到“real__t”，可能丢失数据
+     1>CorMat.cpp(300): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 E:\softwareforwork\VS2012\VC\include\stdlib.h(909) : 参见“itoa”的声明
+     1>CorMat.cpp(323): warning C4244: “=”: 从“double”转换到“real__t”，可能丢失数据
+     1>CorMat.cpp(327): warning C4244: “=”: 从“double”转换到“__int64”，可能丢失数据
+     1>CorMat.cpp(460): warning C4244: “=”: 从“double”转换到“real__t”，可能丢失数据
+     1>CorMat.cpp(568): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 E:\softwareforwork\VS2012\VC\include\stdlib.h(909) : 参见“itoa”的声明
+     1>CorMat.cpp(600): warning C4244: “=”: 从“double”转换到“real__t”，可能丢失数据
+     1>CorMat.cpp(603): warning C4244: “=”: 从“double”转换到“__int64”，可能丢失数据
+     1>CorMat.cpp(781): warning C4101: “j_for_del”: 未引用的局部变量
+     1>CorMat.cpp(780): warning C4101: “i_for_del”: 未引用的局部变量
+     1>CorMat.cpp(903): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>CorMat.cpp(949): warning C4244: “=”: 从“double”转换到“real__t”，可能丢失数据
+     1>CorMat.cpp(964): warning C4244: “=”: 从“double”转换到“real__t”，可能丢失数据
+       Link:
+         E:\softwareforwork\VS2012\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\..\bin\CUCorMat.exe" /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\lib\x64" cublas.lib cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\..\..\..\bin\CUCorMat.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\..\bin\CUCorMat.lib" /MACHINE:X64 x64\Release\CorMat.cu.obj
+         x64\Release\CorMat.obj
+         正在生成代码
+         已完成代码的生成
+         CUCorMat.vcxproj -> E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-weighted-win64-cuda7.0-20160331\src\CorMat\CUCorMat\CUCorMat\..\..\..\..\bin\CUCorMat.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "..\..\..\..\bin\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "..\..\..\..\bin\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "..\..\..\..\bin\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart32_70.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart64_70.dll
+         已复制         2 个文件。
+     1>已完成生成项目“E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-weighted-win64-cuda7.0-20160331\src\CorMat\CUCorMat\CUCorMat\CUCorMat.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.27

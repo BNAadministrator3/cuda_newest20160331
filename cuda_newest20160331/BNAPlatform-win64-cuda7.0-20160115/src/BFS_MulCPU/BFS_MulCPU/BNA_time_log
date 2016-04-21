@@ -1,0 +1,16 @@
+BFS_Lp	E:\BNAlauncher\BNU_data_S2_csr\N0001_25218_spa0.100%_cor0.705.csrGPU	kernel time	10.1362s
+BFS_Lp	RandomGPU	(Maslov+kernel) time	18.3945s
+BFS_Lp	E:\project\data\BNU_data_S2_proto\group\BNU_data_S2_proto_10_25218_spa0.500%_cor0.055.csrGPU	kernel time	23.6658s
+BFS_Lp	RandomGPU	(Maslov+kernel) time	2.55489e-007s
+BFS_Lp	E:\project\data\BNU_data_S2_proto\group\BNU_data_S2_proto_10_25218_spa1.000%_cor0.048.csrGPU	kernel time	42.5892s
+BFS_Lp	RandomGPU	(Maslov+kernel) time	0s
+BFS_Lp	E:\project\data\BNU_data_S2_proto\group\BNU_data_S2_proto_10_25218_spa1.500%_cor0.044.csrGPU	kernel time	60.8291s
+BFS_Lp	RandomGPU	(Maslov+kernel) time	0s
+BFS_Lp	E:\project\data\BNU_data_S2_proto\group\BNU_data_S2_proto_10_25218_spa2.000%_cor0.041.csrGPU	kernel time	77.6116s
+BFS_Lp	RandomGPU	(Maslov+kernel) time	2.55489e-007s
+BFS_Lp	E:\project\data\BNU_data_S2_proto\group\BNU_data_S2_proto_10_25218_spa2.500%_cor0.039.csrGPU	kernel time	92.9421s
+BFS_Lp	RandomGPU	(Maslov+kernel) time	0s
+BFS_Lp	E:\project\data\BNU_data_S2_proto\group\BNU_data_S2_proto_10_25218_spa3.000%_cor0.037.csrGPU	kernel time	106.861s
+BFS_Lp	RandomGPU	(Maslov+kernel) time	2.55489e-007s
+BFS_Lp	GPU	total time	405.568s
+

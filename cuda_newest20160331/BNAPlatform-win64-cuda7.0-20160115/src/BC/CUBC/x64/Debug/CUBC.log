@@ -1,0 +1,28 @@
+﻿生成启动时间为 2016/4/12 9:46:03。
+     1>项目“E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-win64-cuda7.0-20160115\src\BC\CUBC\CUBC.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\softwareforwork\VS2012\VC\bin\x86_amd64\CL.exe /c /I..\..\common /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" /Zi /nologo /W3 /WX- /Od /D WIN32 /D WIN64 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt CUBC_main.cpp
+         CUBC_main.cpp
+       Link:
+         E:\softwareforwork\VS2012\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-win64-cuda7.0-20160115\src\x64\Debug\CUBC.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\lib\x64" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-win64-cuda7.0-20160115\src\x64\Debug\CUBC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-win64-cuda7.0-20160115\src\x64\Debug\CUBC.lib" /MACHINE:X64 x64\Debug\BC_GPU_edge_array.cu.obj
+         x64\Debug\BC_GPU_edge_pred.cu.obj
+         x64\Debug\BC_GPU_edge_succ.cu.obj
+         x64\Debug\BC_GPU_node_array.cu.obj
+         x64\Debug\BC_GPU_node_pred.cu.obj
+         x64\Debug\BC_GPU_node_succ.cu.obj
+         x64\Debug\CUBC.obj
+         x64\Debug\CUBC_main.obj
+         CUBC.vcxproj -> E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-win64-cuda7.0-20160115\src\x64\Debug\CUBC.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-win64-cuda7.0-20160115\src\x64\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-win64-cuda7.0-20160115\src\x64\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-win64-cuda7.0-20160115\src\x64\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart32_70.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart64_70.dll
+         已复制         2 个文件。
+     1>已完成生成项目“E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-win64-cuda7.0-20160115\src\BC\CUBC\CUBC.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.24

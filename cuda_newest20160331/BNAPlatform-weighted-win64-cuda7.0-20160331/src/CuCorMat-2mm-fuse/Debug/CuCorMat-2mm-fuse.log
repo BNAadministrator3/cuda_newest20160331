@@ -1,0 +1,14 @@
+﻿生成启动时间为 2016/3/26 19:11:19。
+     1>项目“E:\cudaintergrated\cuda_test_project\cuda_newest20160115-4mm-sole-correlation\BNAPlatform-weighted-network-win64-cuda7.0-20160115\src\CuCorMat-2mm\CuCorMat-2mm-fuse.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>CudaClean:
+         cmd.exe /C "C:\Users\Lerond\AppData\Local\Temp\tmpd2086a788b714d429a21ec638813d031.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\nvcc.exe" -ccbin "E:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile   -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\CorMat-2mm.cu.obj "E:\cudaintergrated\cuda_test_project\cuda_newest20160115-4mm-sole-correlation\BNAPlatform-weighted-network-win64-cuda7.0-20160115\src\CuCorMat-2mm\CorMat-2mm.cu" -clean
+         
+         E:\cudaintergrated\cuda_test_project\cuda_newest20160115-4mm-sole-correlation\BNAPlatform-weighted-network-win64-cuda7.0-20160115\src\CuCorMat-2mm>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\nvcc.exe" -ccbin "E:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile   -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\CorMat-2mm.cu.obj "E:\cudaintergrated\cuda_test_project\cuda_newest20160115-4mm-sole-correlation\BNAPlatform-weighted-network-win64-cuda7.0-20160115\src\CuCorMat-2mm\CorMat-2mm.cu" -clean 
+         CorMat-2mm.cu
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\BuildCustomizations\CUDA 7.0.targets(402,9): error : The path specified for SourceFile at 'E:\cudaintergrated\cuda_test_project\cuda_newest20160115-4mm-sole-correlation\BNAPlatform-weighted-network-win64-cuda7.0-20160115\src\CuCorMat-2mm\CorMat-2mm.cu' does not exist.
+     1>已完成生成项目“E:\cudaintergrated\cuda_test_project\cuda_newest20160115-4mm-sole-correlation\BNAPlatform-weighted-network-win64-cuda7.0-20160115\src\CuCorMat-2mm\CuCorMat-2mm-fuse.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.25

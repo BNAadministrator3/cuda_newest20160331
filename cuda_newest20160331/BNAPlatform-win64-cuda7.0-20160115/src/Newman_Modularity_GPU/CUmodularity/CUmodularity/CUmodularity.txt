@@ -1,0 +1,11 @@
+10 files to be processed.
+
+Modular analysis for E:\project\data\FunImgRWDCF\group\grouplevel-unweighted\group_10_77452_spa0.500%_cor0.087.csr ...
+GPU Device 0: "GeForce GTX TITAN Black" with compute capability 3.5
+
+
+Round:	0	number of nodes:	77452	Iterations:	33	residual:	9.0694e-007	Eigen Value: 1171.62	Divide?: 1	
+sub_partition time:   0.903969s
+
+Round:	1	number of nodes:	48632	Iterations:	1235	residual:	9.94204e-007	Iterations:	216	residual:	9.63201e-007	Eigen Value: 366.388	Divide?: 1	
+sub_partition time:   10.2783s
