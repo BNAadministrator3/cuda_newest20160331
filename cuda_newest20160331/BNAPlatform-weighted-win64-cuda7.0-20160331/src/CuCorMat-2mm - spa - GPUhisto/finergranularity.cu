@@ -142,14 +142,14 @@ int CorMat_gpu(string OutCor, real__t * BOLD, int N, int L, int Batch_size,real_
 				stat = cublasSgemm(handle, CUBLAS_OP_T,  CUBLAS_OP_N, Batch_size, Batch_size, L,  &alpha, devBOLD + jj * Batch_size * L, L, devBOLD + ii * Batch_size * L, L, &beta, devCormat, Batch_size);
 				if (stat != CUBLAS_STATUS_SUCCESS)
 					return stat;
-				//time = clock();
+				time = clock();
 				cudaStat = cudaMemcpy(out, devCormat, sizeof(real__t) * Batch_size * Batch_size, cudaMemcpyDeviceToHost);
 				if (cudaStat != cudaSuccess) 
 					return cudaStat;
 #endif
-				/*time = clock() - time;
+				time = clock() - time;
 				cout<<"memcpy time: "<<time<<"ms"<<endl;
-				time = clock();*/
+				time = clock();
 				//if (ii==jj)
 				//{
 				//	for (int i = 0; i < Batch_size; i++)
@@ -200,7 +200,7 @@ int CorMat_gpu(string OutCor, real__t * BOLD, int N, int L, int Batch_size,real_
 				}	  
 				time = clock() -time;
 				cout<<"screening time: "<<time<<"ms"<<endl;*/
-				/*time = clock();*/
+				time = clock();
 				if(ii==jj)
 				{
 					//Thrust(ColumnAndValue.begin(), out, ii, Batch_size,  *r_thresh,  ep);
@@ -249,8 +249,8 @@ int CorMat_gpu(string OutCor, real__t * BOLD, int N, int L, int Batch_size,real_
 						}
 					}
 				}
-				/*time = clock() -time;
-				cout<<"csr time: "<<time<<"ms"<<endl;*/
+				time = clock() -time;
+				cout<<"csr time: "<<time<<"ms"<<endl;
 				delete []out;
 				cout<<"Loop flag: "<<ii<<":"<<jj<<endl;
 			}
@@ -276,6 +276,7 @@ int CorMat_gpu(string OutCor, real__t * BOLD, int N, int L, int Batch_size,real_
 		}*/
 		position = Row[N]/2.0 - amount;
 		position = bin.size() - position;
+		cout<<position<<endl;
 		select(bin.begin(),distance(bin.begin(),bin.end()), position);
 		real__t finerResult = bin[position-1];	
 		vector<real__t>().swap(bin);

@@ -5,8 +5,8 @@
     <CudaCompile Include="finergranularity.cu" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\CuCorMat-2mm-fuse\parallel-programming-GPUhisto.cpp" />
     <ClCompile Include="CorMat-2mm-spa-GPUhisto.cpp" />
+    <ClCompile Include="parallel-programming-GPUhisto.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="histogram.h" />

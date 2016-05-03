@@ -154,11 +154,11 @@ copy "$(CudaToolkitBinDir)\cudart*.dll" "$(OutDir)"</Command>
     </CudaCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CudaCompile Include="CorMat-2mm-fuse.cu" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="CorMat-2mm-fuse.cpp" />
     <ClCompile Include="parallel-programming.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="CorMat-2mm-fuse.cu" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

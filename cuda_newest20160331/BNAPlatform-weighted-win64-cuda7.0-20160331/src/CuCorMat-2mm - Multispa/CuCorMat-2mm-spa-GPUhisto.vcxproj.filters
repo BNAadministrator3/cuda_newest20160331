@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CudaCompile Include="CorMat-2mm-transition--Multispa.cu" />
+    <CudaCompile Include="finergranularity-Multispa.cu" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CorMat-2mm--Multispa.cpp" />
+    <ClCompile Include="..\CuCorMat-2mm-fuse\parallel-programming-Multispa.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="histogram.h" />
+  </ItemGroup>
+</Project>

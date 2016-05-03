@@ -201,8 +201,8 @@ int main(int argc, char * argv[])
 			if (!fin.good())
 			{	cout<<"Can't open\t"<<a.c_str()<<endl;	return 0;}
 			fin.read((char*)hdr, HdrLen);
-			L = hdr[24];
-			//L = 120;
+			//L = hdr[24];
+			L = 120;
 			real__t * BOLD = new real__t [L * N];
 			if (hdr[36] == 64) // double
 			{
@@ -222,20 +222,42 @@ int main(int argc, char * argv[])
 			else if (hdr[36] == 32)	   //float
 			{
 				//places that need amend
-#ifndef oneMM
-				real__t *InData = new float [L * total_size];
-#else
-				real__t *InData = (float)FileMapping(a, HdrLen);
-#endif
-				fin.read((char*)InData, sizeof(float) * L * total_size); 
-				fin.close();
-				// Get the BOLD signal for all the valid voxels
-				for (int i = -1, k = 0; k < total_size; k++)
-					if (mask[k] >= ProbCut)
-						for (i++, l = 0; l < L; l++)
-						{
-							BOLD[l*N+i] = InData[l*total_size+k];
-						}
+//#ifndef oneMM
+//				real__t *InData = new float [L * total_size];
+//#else
+//				real__t *InData = (float)FileMapping(a, HdrLen);
+//#endif
+//				fin.read((char*)InData, sizeof(float) * L * total_size); 
+//				//L = 120;
+//				fin.close();
+//				// Get the BOLD signal for all the valid voxels
+//				for (int i = -1, k = 0; k < total_size; k++)
+//					if (mask[k] >= ProbCut)
+//						for (i++, l = 0; l < L; l++)
+//						{
+//							BOLD[l*N+i] = InData[l*total_size+k];
+//						}
+
+						cout<<total_size<<"*"<<L<<endl;
+					//real__t * BOLD_com = new real__t [L * N];
+					uint__t piece = 100;
+					uint__t tile = total_size*piece;
+					int sheet = L / piece + 1;
+					real__t *InData = new float [tile];//[L * total_size];
+					for (uint__t z = 0; z < sheet; z++)
+					{
+						cout<<z<<endl;
+						uint__t bound = piece*(z+1)< L?piece*(z+1):L;
+						fin.read((char*)InData, sizeof(float) * tile);
+						for (int i = -1, k = 0; k < total_size; k++)
+							if (mask[k] >= ProbCut)
+								for (i++, l = 0+piece*z; l <bound; l++)
+								{
+									BOLD[l*N+i] = InData[(l-piece*z)*total_size+k];
+								}
+					}
+					fin.close();
+
 						cout<<"BOLD length: "<<L<<", Data type: float."<<N<<endl;
 						delete []InData;
 			}
@@ -276,11 +298,9 @@ int main(int argc, char * argv[])
 			uint__t sortOrder = 0;
 			clock_t *aggregate =(clock_t *) malloc(sizeof(clock_t));
 			rthresh = CorMat_spa2rth(OutCor, BOLD, N, L, GPU_Batch_size,s_thresh, aggregate);
-			////rthresh = 0.8;
+			//rthresh = 0.8;
 			CorMat_gpu(OutCor, BOLD, N, L, CPU_Batch_size,&rthresh,interval(),s_thresh, aggregate);
-			//sort sparsity //
-		
-
+			
 			delete []BOLD;
 		}
 		delete []mask;

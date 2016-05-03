@@ -155,7 +155,7 @@ real__t CorMat_spa2rth(string OutCor, real__t * BOLD, int N, int L, int Batch_si
 #ifdef CPUCormat
                 MatrixMultiplication_s(BOLD_t1, BOLD_t2, out, Batch_size,L);//need modify as well.
 #else            
-				/*time = clock();*/
+				time = clock();
 				stat = cublasSgemm(handle, CUBLAS_OP_T,  CUBLAS_OP_N, Batch_size, Batch_size, L,  &alpha, devBOLD + jj * Batch_size * L, L, devBOLD + ii * Batch_size * L, L, &beta, devCormat, Batch_size);
 				if (stat != CUBLAS_STATUS_SUCCESS)
 					return stat;
@@ -175,9 +175,9 @@ real__t CorMat_spa2rth(string OutCor, real__t * BOLD, int N, int L, int Batch_si
 				}
 				thrust::device_vector<uint__t>().swap(temphisto);
 				thrust::raw_pointer_cast(dev_ptr);//have a try
-				/*time = clock() - time;
-				cout<<"thrust::histogram time: "<<time<<"ms"<<endl;*/
-				cout<<"loop flag"<<" ii: "<<ii<<"jj: "<<jj<<endl;
+				time = clock() - time;
+				cout<<"thrust::histogram time: "<<time<<"ms"<<endl;
+				cout<<"loop flag"<<"ii: "<<ii<<"jj: "<<jj<<endl;
 #endif
 			}
 			cout<<"Fulfill the "<<ii+1<<"th block."<<endl;

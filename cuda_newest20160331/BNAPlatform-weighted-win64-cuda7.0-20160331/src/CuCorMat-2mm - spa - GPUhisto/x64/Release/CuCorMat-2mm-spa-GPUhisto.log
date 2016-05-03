@@ -1,13 +1,13 @@
-﻿生成启动时间为 2016/4/11 19:44:05。
+﻿生成启动时间为 2016/4/28 17:11:01。
      1>项目“E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-weighted-win64-cuda7.0-20160331\src\CuCorMat-2mm - spa - GPUhisto\CuCorMat-2mm-spa-GPUhisto.vcxproj”在节点 2 上(Rebuild 个目标)。
      1>CudaClean:
-         cmd.exe /C "C:\Users\Lerond\AppData\Local\Temp\tmpd3316311f6ef4fb690aeebd725319283.cmd"
+         cmd.exe /C "C:\Users\Lerond\AppData\Local\Temp\tmpf47dc42fb63a4688ad93522224ad7b01.cmd"
          "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\nvcc.exe" -ccbin "E:\softwareforwork\VS2012\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I..\common -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile      -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi  /MD  " -o x64\Release\CorMat-2mm-transition-GPUhisto.cu.obj "E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-weighted-win64-cuda7.0-20160331\src\CuCorMat-2mm - spa - GPUhisto\CorMat-2mm-transition-GPUhisto.cu" -clean
          
          E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-weighted-win64-cuda7.0-20160331\src\CuCorMat-2mm - spa - GPUhisto>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\nvcc.exe" -ccbin "E:\softwareforwork\VS2012\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I..\common -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile      -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi  /MD  " -o x64\Release\CorMat-2mm-transition-GPUhisto.cu.obj "E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-weighted-win64-cuda7.0-20160331\src\CuCorMat-2mm - spa - GPUhisto\CorMat-2mm-transition-GPUhisto.cu" -clean 
          CorMat-2mm-transition-GPUhisto.cu
        CudaClean:
-         cmd.exe /C "C:\Users\Lerond\AppData\Local\Temp\tmpfc188757559944859fae391b46539bf4.cmd"
+         cmd.exe /C "C:\Users\Lerond\AppData\Local\Temp\tmpebf3489e71704730b362e6e8a6124360.cmd"
          "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\nvcc.exe" -ccbin "E:\softwareforwork\VS2012\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I..\common -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile      -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi  /MD  " -o x64\Release\finergranularity.cu.obj "E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-weighted-win64-cuda7.0-20160331\src\CuCorMat-2mm - spa - GPUhisto\finergranularity.cu" -clean
          
          E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-weighted-win64-cuda7.0-20160331\src\CuCorMat-2mm - spa - GPUhisto>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\nvcc.exe" -ccbin "E:\softwareforwork\VS2012\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I..\common -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile      -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi  /MD  " -o x64\Release\finergranularity.cu.obj "E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-weighted-win64-cuda7.0-20160331\src\CuCorMat-2mm - spa - GPUhisto\finergranularity.cu" -clean 
@@ -18,7 +18,7 @@
          E:\softwareforwork\VS2012\VC\bin\x86_amd64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /DWIN64 /DNDEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" /I..\common /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" /I. /FIcuda_runtime.h /c "E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-weighted-win64-cuda7.0-20160331\src\CuCorMat-2mm - spa - GPUhisto\finergranularity.cu" 
        CudaBuild:
          Compiling CUDA source file CorMat-2mm-transition-GPUhisto.cu...
-         cmd.exe /C "C:\Users\Lerond\AppData\Local\Temp\tmp029c61c5697e4e99b8e0a14e24528a4d.cmd"
+         cmd.exe /C "C:\Users\Lerond\AppData\Local\Temp\tmp615119f954604044ae7a5f572534b7c5.cmd"
          "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2012 -ccbin "E:\softwareforwork\VS2012\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I..\common -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi  /MD  " -o x64\Release\CorMat-2mm-transition-GPUhisto.cu.obj "E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-weighted-win64-cuda7.0-20160331\src\CuCorMat-2mm - spa - GPUhisto\CorMat-2mm-transition-GPUhisto.cu"
          
          E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-weighted-win64-cuda7.0-20160331\src\CuCorMat-2mm - spa - GPUhisto>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2012 -ccbin "E:\softwareforwork\VS2012\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I..\common -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi  /MD  " -o x64\Release\CorMat-2mm-transition-GPUhisto.cu.obj "E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-weighted-win64-cuda7.0-20160331\src\CuCorMat-2mm - spa - GPUhisto\CorMat-2mm-transition-GPUhisto.cu" 
@@ -529,7 +529,7 @@
                  ]
        CudaBuild:
          Compiling CUDA source file finergranularity.cu...
-         cmd.exe /C "C:\Users\Lerond\AppData\Local\Temp\tmp65146a420e9e48aa9865e12f24b81fa6.cmd"
+         cmd.exe /C "C:\Users\Lerond\AppData\Local\Temp\tmpc0ef815c82ec4fd7a5906935368c2890.cmd"
          "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2012 -ccbin "E:\softwareforwork\VS2012\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I..\common -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi  /MD  " -o x64\Release\finergranularity.cu.obj "E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-weighted-win64-cuda7.0-20160331\src\CuCorMat-2mm - spa - GPUhisto\finergranularity.cu"
          
          E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-weighted-win64-cuda7.0-20160331\src\CuCorMat-2mm - spa - GPUhisto>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2012 -ccbin "E:\softwareforwork\VS2012\VC\bin\x86_amd64"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I..\common -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile -cudart static     -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi  /MD  " -o x64\Release\finergranularity.cu.obj "E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-weighted-win64-cuda7.0-20160331\src\CuCorMat-2mm - spa - GPUhisto\finergranularity.cu" 
@@ -553,7 +553,7 @@
      1>E:/project/program/cuda_newest20160331/cuda_newest20160331/BNAPlatform-weighted-win64-cuda7.0-20160331/src/CuCorMat-2mm - spa - GPUhisto/finergranularity.cu(49): warning : variable "tempout" was set but never used
      1>E:/project/program/cuda_newest20160331/cuda_newest20160331/BNAPlatform-weighted-win64-cuda7.0-20160331/src/CuCorMat-2mm - spa - GPUhisto/finergranularity.cu(121): warning : variable "Num_Bins" was declared but never referenced
      1>E:/project/program/cuda_newest20160331/cuda_newest20160331/BNAPlatform-weighted-win64-cuda7.0-20160331/src/CuCorMat-2mm - spa - GPUhisto/finergranularity.cu(271): warning : variable "overallSize" was declared but never referenced
-     1>E:/project/program/cuda_newest20160331/cuda_newest20160331/BNAPlatform-weighted-win64-cuda7.0-20160331/src/CuCorMat-2mm - spa - GPUhisto/finergranularity.cu(311): warning : variable "FreeMem" was set but never used
+     1>E:/project/program/cuda_newest20160331/cuda_newest20160331/BNAPlatform-weighted-win64-cuda7.0-20160331/src/CuCorMat-2mm - spa - GPUhisto/finergranularity.cu(312): warning : variable "FreeMem" was set but never used
      1>E:/project/program/cuda_newest20160331/cuda_newest20160331/BNAPlatform-weighted-win64-cuda7.0-20160331/src/CuCorMat-2mm - spa - GPUhisto/finergranularity.cu(40): warning : variable "thread_num" was declared but never referenced
      1>E:/project/program/cuda_newest20160331/cuda_newest20160331/BNAPlatform-weighted-win64-cuda7.0-20160331/src/CuCorMat-2mm - spa - GPUhisto/finergranularity.cu(41): warning : variable "block_num" was declared but never referenced
      1>E:/project/program/cuda_newest20160331/cuda_newest20160331/BNAPlatform-weighted-win64-cuda7.0-20160331/src/CuCorMat-2mm - spa - GPUhisto/finergranularity.cu(42): warning : variable "blocksize" was declared but never referenced
@@ -613,7 +613,7 @@
      1>E:/project/program/cuda_newest20160331/cuda_newest20160331/BNAPlatform-weighted-win64-cuda7.0-20160331/src/CuCorMat-2mm - spa - GPUhisto/finergranularity.cu(49): warning : variable "tempout" was set but never used
      1>E:/project/program/cuda_newest20160331/cuda_newest20160331/BNAPlatform-weighted-win64-cuda7.0-20160331/src/CuCorMat-2mm - spa - GPUhisto/finergranularity.cu(121): warning : variable "Num_Bins" was declared but never referenced
      1>E:/project/program/cuda_newest20160331/cuda_newest20160331/BNAPlatform-weighted-win64-cuda7.0-20160331/src/CuCorMat-2mm - spa - GPUhisto/finergranularity.cu(271): warning : variable "overallSize" was declared but never referenced
-     1>E:/project/program/cuda_newest20160331/cuda_newest20160331/BNAPlatform-weighted-win64-cuda7.0-20160331/src/CuCorMat-2mm - spa - GPUhisto/finergranularity.cu(311): warning : variable "FreeMem" was set but never used
+     1>E:/project/program/cuda_newest20160331/cuda_newest20160331/BNAPlatform-weighted-win64-cuda7.0-20160331/src/CuCorMat-2mm - spa - GPUhisto/finergranularity.cu(312): warning : variable "FreeMem" was set but never used
      1>E:/project/program/cuda_newest20160331/cuda_newest20160331/BNAPlatform-weighted-win64-cuda7.0-20160331/src/CuCorMat-2mm - spa - GPUhisto/finergranularity.cu(40): warning : variable "thread_num" was declared but never referenced
      1>E:/project/program/cuda_newest20160331/cuda_newest20160331/BNAPlatform-weighted-win64-cuda7.0-20160331/src/CuCorMat-2mm - spa - GPUhisto/finergranularity.cu(41): warning : variable "block_num" was declared but never referenced
      1>E:/project/program/cuda_newest20160331/cuda_newest20160331/BNAPlatform-weighted-win64-cuda7.0-20160331/src/CuCorMat-2mm - spa - GPUhisto/finergranularity.cu(42): warning : variable "blocksize" was declared but never referenced
@@ -635,35 +635,38 @@
      1>E:/project/program/cuda_newest20160331/cuda_newest20160331/BNAPlatform-weighted-win64-cuda7.0-20160331/src/CuCorMat-2mm - spa - GPUhisto/finergranularity.cu(262): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
      1>E:/project/program/cuda_newest20160331/cuda_newest20160331/BNAPlatform-weighted-win64-cuda7.0-20160331/src/CuCorMat-2mm - spa - GPUhisto/finergranularity.cu(277): warning C4244: “=”: 从“double”转换到“uint__t”，可能丢失数据
      1>E:/project/program/cuda_newest20160331/cuda_newest20160331/BNAPlatform-weighted-win64-cuda7.0-20160331/src/CuCorMat-2mm - spa - GPUhisto/finergranularity.cu(278): warning C4267: “=”: 从“size_t”转换到“uint__t”，可能丢失数据
-     1>E:/project/program/cuda_newest20160331/cuda_newest20160331/BNAPlatform-weighted-win64-cuda7.0-20160331/src/CuCorMat-2mm - spa - GPUhisto/finergranularity.cu(292): warning C4244: “初始化”: 从“__int64”转换到“uint__t”，可能丢失数据
-     1>E:/project/program/cuda_newest20160331/cuda_newest20160331/BNAPlatform-weighted-win64-cuda7.0-20160331/src/CuCorMat-2mm - spa - GPUhisto/finergranularity.cu(292): warning C4018: “<”: 有符号/无符号不匹配
-     1>E:/project/program/cuda_newest20160331/cuda_newest20160331/BNAPlatform-weighted-win64-cuda7.0-20160331/src/CuCorMat-2mm - spa - GPUhisto/finergranularity.cu(315): warning C4244: “=”: 从“SIZE_T”转换到“unsigned int”，可能丢失数据
-     1>E:/project/program/cuda_newest20160331/cuda_newest20160331/BNAPlatform-weighted-win64-cuda7.0-20160331/src/CuCorMat-2mm - spa - GPUhisto/finergranularity.cu(324): warning C4244: “初始化”: 从“double”转换到“real__t”，可能丢失数据
-     1>E:/project/program/cuda_newest20160331/cuda_newest20160331/BNAPlatform-weighted-win64-cuda7.0-20160331/src/CuCorMat-2mm - spa - GPUhisto/finergranularity.cu(391): warning C4244: “=”: 从“double”转换到“real__t”，可能丢失数据
+     1>E:/project/program/cuda_newest20160331/cuda_newest20160331/BNAPlatform-weighted-win64-cuda7.0-20160331/src/CuCorMat-2mm - spa - GPUhisto/finergranularity.cu(293): warning C4244: “初始化”: 从“__int64”转换到“uint__t”，可能丢失数据
+     1>E:/project/program/cuda_newest20160331/cuda_newest20160331/BNAPlatform-weighted-win64-cuda7.0-20160331/src/CuCorMat-2mm - spa - GPUhisto/finergranularity.cu(293): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:/project/program/cuda_newest20160331/cuda_newest20160331/BNAPlatform-weighted-win64-cuda7.0-20160331/src/CuCorMat-2mm - spa - GPUhisto/finergranularity.cu(316): warning C4244: “=”: 从“SIZE_T”转换到“unsigned int”，可能丢失数据
+     1>E:/project/program/cuda_newest20160331/cuda_newest20160331/BNAPlatform-weighted-win64-cuda7.0-20160331/src/CuCorMat-2mm - spa - GPUhisto/finergranularity.cu(325): warning C4244: “初始化”: 从“double”转换到“real__t”，可能丢失数据
+     1>E:/project/program/cuda_newest20160331/cuda_newest20160331/BNAPlatform-weighted-win64-cuda7.0-20160331/src/CuCorMat-2mm - spa - GPUhisto/finergranularity.cu(392): warning C4244: “=”: 从“double”转换到“real__t”，可能丢失数据
        ClCompile:
-         E:\softwareforwork\VS2012\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" /I..\common /Zi /nologo /W3 /WX- /Od /Oi /GL /D WIN32 /D WIN64 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt "..\CuCorMat-2mm-fuse\parallel-programming-GPUhisto.cpp" "CorMat-2mm-spa-GPUhisto.cpp"
-         parallel-programming-GPUhisto.cpp
-     1>..\CuCorMat-2mm-fuse\parallel-programming-GPUhisto.cpp(43): warning C4018: “<”: 有符号/无符号不匹配
-     1>..\CuCorMat-2mm-fuse\parallel-programming-GPUhisto.cpp(45): warning C4018: “<”: 有符号/无符号不匹配
-     1>..\CuCorMat-2mm-fuse\parallel-programming-GPUhisto.cpp(117): warning C4018: “<”: 有符号/无符号不匹配
-     1>..\CuCorMat-2mm-fuse\parallel-programming-GPUhisto.cpp(119): warning C4018: “<”: 有符号/无符号不匹配
+         E:\softwareforwork\VS2012\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" /I..\common /Zi /nologo /W3 /WX- /Od /Oi /GL /D WIN32 /D WIN64 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt "CorMat-2mm-spa-GPUhisto.cpp" "parallel-programming-GPUhisto.cpp"
          CorMat-2mm-spa-GPUhisto.cpp
      1>CorMat-2mm-spa-GPUhisto.cpp(43): warning C4305: “-=”: 从“double”到“real__t”截断
      1>CorMat-2mm-spa-GPUhisto.cpp(44): warning C4244: “=”: 从“double”转换到“real__t”，可能丢失数据
      1>CorMat-2mm-spa-GPUhisto.cpp(155): warning C4244: “=”: 从“short”转换到“char”，可能丢失数据
      1>CorMat-2mm-spa-GPUhisto.cpp(217): warning C4244: “=”: 从“double”转换到“real__t”，可能丢失数据
-     1>CorMat-2mm-spa-GPUhisto.cpp(273): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+     1>CorMat-2mm-spa-GPUhisto.cpp(247): warning C4018: “<”: 有符号/无符号不匹配
+     1>CorMat-2mm-spa-GPUhisto.cpp(250): warning C4018: “<”: 有符号/无符号不匹配
+     1>CorMat-2mm-spa-GPUhisto.cpp(254): warning C4018: “<”: 有符号/无符号不匹配
+     1>CorMat-2mm-spa-GPUhisto.cpp(295): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
                  E:\softwareforwork\VS2012\VC\include\stdlib.h(909) : 参见“itoa”的声明
      1>CorMat-2mm-spa-GPUhisto.cpp(66): warning C4101: “time”: 未引用的局部变量
-     1>CorMat-2mm-spa-GPUhisto.cpp(265): warning C4101: “sparsity”: 未引用的局部变量
+     1>CorMat-2mm-spa-GPUhisto.cpp(287): warning C4101: “sparsity”: 未引用的局部变量
+         parallel-programming-GPUhisto.cpp
+     1>parallel-programming-GPUhisto.cpp(43): warning C4018: “<”: 有符号/无符号不匹配
+     1>parallel-programming-GPUhisto.cpp(45): warning C4018: “<”: 有符号/无符号不匹配
+     1>parallel-programming-GPUhisto.cpp(117): warning C4018: “<”: 有符号/无符号不匹配
+     1>parallel-programming-GPUhisto.cpp(119): warning C4018: “<”: 有符号/无符号不匹配
        Link:
-         E:\softwareforwork\VS2012\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-weighted-win64-cuda7.0-20160331\src\x64\Release\CuCorMat-2mm-spa-GPUhisto.exe" /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\lib\x64" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-weighted-win64-cuda7.0-20160331\src\x64\Release\CuCorMat-2mm-spa-GPUhisto.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-weighted-win64-cuda7.0-20160331\src\x64\Release\CuCorMat-2mm-spa-GPUhisto.lib" /MACHINE:X64 "x64\Release\CorMat-2mm-transition-GPUhisto.cu.obj"
+         E:\softwareforwork\VS2012\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-weighted-win64-cuda7.0-20160331\src\x64\Release\CuCorMat-2mm-spa-GPUhisto-problem.exe" /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\lib\x64" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-weighted-win64-cuda7.0-20160331\src\x64\Release\CuCorMat-2mm-spa-GPUhisto-problem.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-weighted-win64-cuda7.0-20160331\src\x64\Release\CuCorMat-2mm-spa-GPUhisto-problem.lib" /MACHINE:X64 "x64\Release\CorMat-2mm-transition-GPUhisto.cu.obj"
          x64\Release\finergranularity.cu.obj
-         "x64\Release\parallel-programming-GPUhisto.obj"
          "x64\Release\CorMat-2mm-spa-GPUhisto.obj"
+         "x64\Release\parallel-programming-GPUhisto.obj"
          正在生成代码
          已完成代码的生成
-         CuCorMat-2mm-spa-GPUhisto.vcxproj -> E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-weighted-win64-cuda7.0-20160331\src\x64\Release\CuCorMat-2mm-spa-GPUhisto.exe
+         CuCorMat-2mm-spa-GPUhisto.vcxproj -> E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-weighted-win64-cuda7.0-20160331\src\x64\Release\CuCorMat-2mm-spa-GPUhisto-problem.exe
        PostBuildEvent:
          echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-weighted-win64-cuda7.0-20160331\src\x64\Release\"
          copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "E:\project\program\cuda_newest20160331\cuda_newest20160331\BNAPlatform-weighted-win64-cuda7.0-20160331\src\x64\Release\"
@@ -676,4 +679,4 @@
 
 生成成功。
 
-已用时间 00:00:35.32
+已用时间 00:01:26.79
